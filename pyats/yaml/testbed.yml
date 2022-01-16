@@ -1,0 +1,42 @@
+devices:
+  Marikina:
+    connections:
+      cli:
+        ip: 192.168.1.1
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmA==}'
+        username: cisco
+      enable:
+        password: '%ASK{}'
+    os: iosxe
+    type: iosxe
+
+  Antipolo:
+    connections:
+      cli:
+        ip: 10.0.0.2
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmA==}'
+        username: cisco
+      enable:
+        password: '%ASK{}'
+    os: iosxe
+    type: iosxe
+
+  Cogeo:
+    connections:
+      cli:
+        ip: 10.0.0.6
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmA==}'
+        username: cisco
+      enable:
+        password: '%ASK{}'
+    os: iosxe
+    type: iosxe
